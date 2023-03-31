@@ -1,0 +1,70 @@
+body{
+  background-color: rgb(212,239,223);
+  color: brown;
+}
+.header{
+  margin-bottom: 70px;
+}
+h1{
+  display: flex;
+  justify-content: center;
+}
+header{
+  font-family: cursive;
+  font-style: oblique;
+  color:#6E2C00;
+  padding: 20px;
+  
+}
+.contenedor{
+  margin-right: px;
+}
+
+.widgets {
+  margin-bottom: 20px;
+}
+
+.widgets > div {
+  background: rgb(212,255,223);
+  color: brown;
+  padding: 20px;
+}
+h3{
+  height: 100px;
+}
+.contenedor-sec{
+    box-shadow: 1px 2px 3px 2px #333;
+}
+aside {
+  padding: 0;
+}
+footer {
+  padding: 20px 0;
+}
+/* Codigo de Text Area de los mensajes */
+.area{
+  display: flex;
+  flex: 0 0 90px;
+  text-align: left;
+  flex: 1;
+  border: 1px solid #333;
+  height: 100% ;
+  width: 95%;
+  padding: 10px;
+}
+
+.sobrenosotros{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 0;
+  border: 2px solid #333;
+  box-shadow: 2px;
+}
+.footer{
+  background-color: #E59866;
+  padding: 20px;
+  border: 1px solid #333;
+  box-shadow: 2px #333;
+  margin-top: 50px;
+}
