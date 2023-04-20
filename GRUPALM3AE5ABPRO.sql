@@ -136,3 +136,7 @@ DESCRIBE usuarios;
 ALTER TABLE contactos ADD FOREIGN KEY (id_usuario,numero_telefono) REFERENCES usuarios (id_usuario,telefono_contacto);
 -- Verificamos las modificaciones
 DESCRIBE contactos;
+
+link para repositorio
+https://github.com/cada-github/trgrp_grupo2
+
