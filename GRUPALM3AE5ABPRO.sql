@@ -48,14 +48,14 @@ DESCRIBE usuarios;
 
 -- Insert tabla usuarios
 INSERT INTO usuarios(nombre, apellido, contraseña, genero, telefono_contacto) VALUES
-('NombreUsuario 1', 'ApellidoUsuario 1','1111111111', 'M','+56911111111'),
-('NombreUsuario 2', 'ApellidoUsuario 2','2222222222', 'F','+56911111111'),
-('NombreUsuario 3', 'ApellidoUsuario 3','3333333333', 'N','+56911111111'),
-('NombreUsuario 4', 'ApellidoUsuario 4','4444444444', 'M','+56911111111'),
-('NombreUsuario 5', 'ApellidoUsuario 5','5555555555', 'F','+56911111111'),
-('NombreUsuario 6', 'ApellidoUsuario 6','6666666666', 'N','+56911111111'),
-('NombreUsuario 7', 'ApellidoUsuario 7','7777777777', 'M','+56911111111'),
-('NombreUsuario 8', 'ApellidoUsuario 8','8888888888', 'F','+56911111111');
+('NombreUsuario 1', 'ApellidoUsuario 1','1111111111', 1,'+56911111111'),
+('NombreUsuario 2', 'ApellidoUsuario 2','2222222222', 2,'+56911111111'),
+('NombreUsuario 3', 'ApellidoUsuario 3','3333333333', 3,'+56911111111'),
+('NombreUsuario 4', 'ApellidoUsuario 4','4444444444', 1,'+56911111111'),
+('NombreUsuario 5', 'ApellidoUsuario 5','5555555555', 2,'+56911111111'),
+('NombreUsuario 6', 'ApellidoUsuario 6','6666666666', 3,'+56911111111'),
+('NombreUsuario 7', 'ApellidoUsuario 7','7777777777', 1,'+56911111111'),
+('NombreUsuario 8', 'ApellidoUsuario 8','8888888888', 2,'+56911111111');
 -- Verifica la inserción
 SELECT * FROM usuarios;
 
@@ -137,6 +137,5 @@ ALTER TABLE contactos ADD FOREIGN KEY (id_usuario,numero_telefono) REFERENCES us
 -- Verificamos las modificaciones
 DESCRIBE contactos;
 
-link para repositorio
-https://github.com/cada-github/trgrp_grupo2
+-- Link de github https://github.com/cada-github/trgrp_grupo2
 
